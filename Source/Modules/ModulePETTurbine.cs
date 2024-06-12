@@ -252,7 +252,7 @@ namespace PlanetsideExplorationTechnologies.Modules
             }              
         }
 
-        public void FixedUpdate()
+        public virtual void FixedUpdate()
         {
             if (!HighLogic.LoadedSceneIsFlight) 
                 return;
